@@ -5,8 +5,8 @@ export default function Navbar() {
     <div className="navbar">
 
       <a className="Active" href="/">Home</a>
-      <a href="/About">About</a>
-      <a href="/News">News</a>
+      <a href="/about">About</a>
+      <a href="/news">News</a>
 
     </div>
   )

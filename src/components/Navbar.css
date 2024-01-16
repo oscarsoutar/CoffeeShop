@@ -1,6 +1,7 @@
 .navbar {
     background-color: #333;
     overflow: hidden;
+    /* transition: 0.5s; */
   }
   
   .navbar a {
@@ -13,12 +14,15 @@
   }
   
   .navbar a:hover {
-    background-color: #ddd;
+    background-color: #f37fe3;
     color: black;
+    transition: 0.5s;
+
   }
   
-  .navbar a.active {
-    background-color: #4CAF50;
+  .navbar a:active {
+    background-color: #1eff00;
     color: white;
+    transition: 0.3s;
+
   }
-  
