@@ -1,15 +1,13 @@
-import React from 'react'
-import Logo from '../assets/coffeeCup.webp';
+import './Navbar.css'
 
-function Navbar() {
+export default function Navbar() {
   return (
     <div className="navbar">
-        <div className="leftSide">
-            <img src={Logo} />
-        </div>
-        <div className="rightSide"></div>
-    </div>
-  );
-}
 
-export default Navbar;
+      <a className="Active" href="/">Home</a>
+      <a href="/About">About</a>
+      <a href="/News">News</a>
+
+    </div>
+  )
+}

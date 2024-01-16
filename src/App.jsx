@@ -1,37 +1,21 @@
-import './App.css'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+// import Layout from './components/layout';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from "./pages/Home";
+import Home from './pages/Home';
+import News from "./pages/News"
+import About from './pages/About';
 
-function App() {
+export default function App() {
   return (
-    <div className='App'>
-      <Router>
+    <Router>
+    <Routes>
         <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          </Switch>
-        </Router>
-    </div>
+        {/* <Route path="/" element={<Layout />}> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/" element={<News />} /> 
+          <Route path="/" element={<About />} />
+        {/* </Route> */}
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
-
-
-
-
-// import { BrowserRouter, Route, Routes } from "react-router-dom"
-// export default App;
-
-// function App() {
-//   return (
-//     <BrowserRouter>
-//       <Routes>
-//         <Route element={Layout}>
-//           <Route path="/" element={Home} />
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// }
