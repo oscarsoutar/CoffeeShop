@@ -1,21 +1,22 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-// import Layout from './components/layout';
+import Layout from './components/layout';
 import Navbar from './components/Navbar';
+import Footer from './components/footer';
 import Home from './pages/Home';
-import News from "./pages/News"
+import News from './pages/News';
 import About from './pages/About';
 
 export default function App() {
   return (
     <Router>
-    <Routes>
-        <Navbar />
-        {/* <Route path="/" element={<Layout />}> */}
+      <Navbar />
+      <Layout />
+      <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<News />} /> 
-          <Route path="/" element={<About />} />
-        {/* </Route> */}
+          <Route path="/news" element={<News />} /> 
+          <Route path="/about" element={<About />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
