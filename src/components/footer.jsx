@@ -1,9 +1,9 @@
-function footer() {
+import "./footer.css";
+
+export default function footer() {
   return (
-    <div>
-      footerr
+    <div className="footer">
+      footerrrr
     </div>
   )
 }
-
-export default footer
