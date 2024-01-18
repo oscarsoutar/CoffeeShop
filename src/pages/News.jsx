@@ -8,16 +8,16 @@ import frenchImg from "../assets/FrenchCoffee.jpg"
 export default function News() {
   return (
     <div className='menu'>
-        <h1 className='menuTitle'>Promotions</h1>
-        <div className="product-list">
-        <ProductCard 
+      <h1 className='menuTitle'>Promotions</h1>
+      <div className="product-list">
+        <ProductCard
           name="Colombian Coffee"
           image={colombianImg}
           description="Smooth, medium roast coffee from Colombia"
           price={12.99}
           discountedPrice={9.99}
         />
-  
+
         <ProductCard
           name="Ethiopian Coffee"
           image={ethiopianImg}
@@ -25,7 +25,7 @@ export default function News() {
           price={14.99}
           discountedPrice={11.99}
         />
-  
+
         <ProductCard
           name="French Roast"
           image={frenchImg}

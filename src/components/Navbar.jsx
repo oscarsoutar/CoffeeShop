@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div>
-          <img src={logo} alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logo" />
       </div>
       <div>
         <a className="Active" href="/">Home</a>

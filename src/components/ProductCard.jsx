@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/ProductCard.css"
 
-export default function ProductCard({name, image, description, price, discountedPrice}) {
+export default function ProductCard({ name, image, description, price, discountedPrice }) {
   return (
     <div className="product-card">
       <img src={image} alt={name} />
