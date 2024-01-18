@@ -10,9 +10,8 @@ export default function Navbar() {
       </div>
       <div>
         <a className="Active" href="/">Home</a>
-        <a href="/menu">Menu</a>
-        <a href="/about">About</a>
         <a href="/news">News</a>
+        <a href="/about">About</a>
       </div>
     </div>
   );

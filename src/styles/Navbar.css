@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  width: 100%;
 }
 
 .navbar a {
@@ -19,16 +20,14 @@
 .navbar a:hover {
   background-color: #d6ad78;
   color: black;
-  /* transition: 0.5s; */
   border-radius: 50%;
-  transform: scale(1.1); /* Scale effect on hover */
+  transform: scale(1.1);
 }
 
 .navbar a:active {
   background-color: #804c1d;
   color: white;
-  /* transition: 0.3s; */
-  transform: scale(1.1); /* Scale effect on hover */
+  transform: scale(1.1);
 }
 
 .logo {
