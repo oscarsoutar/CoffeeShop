@@ -1,0 +1,23 @@
+.menu {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://wallpapercave.com/wp/wp12968646.jpg");
+    padding: 20px;
+    width: 100%;
+}
+
+.menuTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(216, 186, 142);
+    margin-top: -50px;
+    margin-bottom: 20px;
+}
